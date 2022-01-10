@@ -1,0 +1,34 @@
+body{
+    height: 200vh;
+  }
+  
+  .nav{
+    position: sticky;
+    top: 30px;
+    width: 100%;
+    margin-top: 200px;
+  }
+  
+  .nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+    /*outline: 1px solid red;*/
+  }
+  
+  .nav ul li{
+    display: inline-block;
+    outline: 1px solid pink;
+    width: 100px;
+    background-color: #cbdcf7;
+    border-radius:10px;
+  }
+  
+  .nav ul li a{
+    display:block;
+    text-decoration: none;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
